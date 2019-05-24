@@ -1,0 +1,1458 @@
+!SESSION 2019-05-13 16:48:09.353 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/momochi/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/momochi/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-05-13 16:48:26.437
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-05-16 12:38:34.494 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/momochi/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/momochi/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-05-16 12:38:52.627
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 12:39:00.470
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 12:39:00.476
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 12:39:00.476
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 12:39:00.476
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.477
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.478
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.478
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.478
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 12:39:00.478
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SESSION 2019-05-16 14:22:09.090 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/momochi/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/momochi/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:23:43.427
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:23:43.429
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:23:43.429
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:23:43.430
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.430
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:23:43.431
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:31:53.622
+!MESSAGE JavaBuilder handling CoreException while cleaning: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:31:53.623
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:31:53.623
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:31:53.624
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.624
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.624
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.624
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.625
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:31:53.816
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:31:53.816
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:31:53.817
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:31:53.817
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:31:53.818
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:32:06.176
+!MESSAGE JavaBuilder handling CoreException while cleaning: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:32:06.177
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:32:06.177
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.177
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:06.178
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:32:08.750
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:32:08.750
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:32:08.750
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:32:08.751
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:08.751
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:32:20.050
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:32:20.051
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:32:20.051
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:32:20.052
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:32:20.052
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:39:11.817
+!MESSAGE JavaBuilder handling CoreException while cleaning: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:39:11.818
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:39:11.818
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:39:11.818
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.819
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-05-16 14:39:11.957
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-05-16 14:39:11.959
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete '/web/src/main/webapp/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+Contains: Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-16 14:39:11.959
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/Application.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataChildDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestDataDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao/TestTreeDao.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/dao.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestData.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.959
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestDataChild.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity/TestTree.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/entity.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestDataService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service/TestTreeService.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/service.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/DemoController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestDataController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web/TestTreeController.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test/web.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules/test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite/modules.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com/jeesite.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-16 14:39:11.960
+!MESSAGE Could not delete: /Users/momochi/Jeesite-demo/web/src/main/webapp/WEB-INF/classes/com.
